@@ -2,6 +2,11 @@ num1 = int(input("numero 1: "))
 num2 = int(input("numero 2: "))
 num3 = int(input("numero 3: "))
 valor = 0
+total1=0
+total2=0
+total3=0
+total4=0
+total5=0
 while True:
     print("""seleccione opcion
     1- Sumar
@@ -12,19 +17,24 @@ while True:
     """)
     valor = int(input("Elige una opcion: ") )
     if valor == 1:
-      print("la suma es",num1+num2)
+      total1=num1+num2
+      print("la suma es",total1)
       break
     if valor == 2:
-        print("la resta es",num1-num2)
+        total2=num1-num2
+        print("la resta es",total2)
         break
     if valor == 3:
-      print("la multiplicacion es",num1*num2)
+      total3=num1*num2
+      print("la multiplicacion es",total3)
       break
     if valor == 4:
-        print("la division es",num1/num2)
+        total4=num1/num2
+        print("la division es",total4)
         break
     if valor == 5:
-        print("la suma es",num1+num2+num3)
+        total5=num1+num2+num3
+        print("la suma es",num1+num2)
         break
     else:
         print("Opcion incorrecta")
